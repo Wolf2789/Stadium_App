@@ -1,0 +1,40 @@
+body { margin: 0; overflow: hidden; }
+
+/* Tiny Toast library */
+.tinyToast {
+    -webkit-animation: fade 8s !important;
+        -moz-animation: fade 8s !important;
+        -ms-animation: fade 8s !important;
+            -o-animation: fade 8s !important;
+            animation: fade 8s !important;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    33%  { opacity: 1; }
+    to   { opacity: 0; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fade {
+    from { opacity: 0; }
+    33%  { opacity: 1; }
+    to   { opacity: 0; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fade {
+    from { opacity: 0; }
+    33%  { opacity: 1; }
+    to   { opacity: 0; }
+}
+/* Internet Explorer */
+@-ms-keyframes fade {
+    from { opacity: 0; }
+    33%  { opacity: 1; }
+    to   { opacity: 0; }
+}
+/* Opera < 12.1 */
+@-o-keyframes fade {
+    from { opacity: 0; }
+    33%  { opacity: 1; }
+    to   { opacity: 0; }
+}

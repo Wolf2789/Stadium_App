@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "3JS",
+		"macros": {
+			"moveJSONData": [
+				"editor.action.clipboardCutAction",
+				{"command": "$delay", "args": {"milliseconds": 100}},
+				"workbench.action.focusFirstEditorGroup",
+				{"command": "$delay", "args": {"milliseconds": 100}},
+				"editor.action.clipboardPasteAction",
+				{"command": "$delay", "args": {"milliseconds": 100}},
+				"workbench.action.files.save",
+				"workbench.action.focusSecondEditorGroup",
+				{"command": "$delay", "args": {"milliseconds": 10}},
+				"cursorDown",
+				"cursorEnd",
+				"cursorLeft",
+				"cursorUpSelect",
+				{"command": "$delay", "args": {"milliseconds": 10}},
+				"deleteRight",
+				{"command": "$delay", "args": {"milliseconds": 10}},
+				"cursorLeft",
+				"cursorDownSelect",
+				"cursorDownSelect",
+				"cursorDownSelect",
+				"cursorDownSelect",
+				"cursorDownSelect",
+				"cursorDownSelect",
+				"cursorDownSelect",
+				"cursorDownSelect",
+			]
+		},
+	}
+}
